@@ -1,6 +1,6 @@
 package me.dcdev.teste.exercicioUm;
 
-public class ExercicioUm {
+public class PercorrerSequenciaDeNumeros {
     public static void main(String[] args) {
         int INDICE =13, SOMA = 0, K=0;
 
@@ -8,6 +8,6 @@ public class ExercicioUm {
             SOMA = SOMA + K;
         }
 
-        System.out.println(SOMA);
+        System.out.println(SOMA); // 78
     }
 }
