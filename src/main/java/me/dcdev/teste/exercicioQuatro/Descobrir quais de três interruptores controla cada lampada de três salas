@@ -3,7 +3,8 @@ Considere os seguintes parametros:
 Interruptor1, Interruptor2, Interruptor3
 Sala1, Sala2, Sala3
 
-Eu ligo o Interruptor1 e mantenho ligada por um tempo, o suficiente para que a lâmpada fique quente, depois desse tempo desligo, ligo o Interruptor2 e verifico a lâmpada na Sala1
-se ela estiver quente o Interruptor1 pertence a lâmpada da Sala1, se ela estiver apagada e fria o Interruptor3 pertence a Sala1 e por fim se ela estiver ligada o Interruptor2 pertence a lâmpada da Sala1.
-Retorno aos interruptores, ligo somente um dos dois que ainda não descobri e verifco a Sala2, se estiver ligado o iterruptor ligado petence a essa sala caso contrario pertence a outra sala,
-descobrindo o interruptor da Sala2 o da Sala3 ficaria por eliminação.
+Eu ligo o Interruptor1 e mantenho ligada por um tempo, o suficiente para que a lâmpada fique quente, depois desse tempo desligo,
+ligo o Interruptor2 e verifico a lâmpada na Sala1 se ela estiver quente o Interruptor1 pertence a lâmpada da Sala1,
+se ela estiver apagada e fria o Interruptor3 pertence a Sala1 e por fim se ela estiver ligada o Interruptor2 pertence a lâmpada da Sala1.
+Retorno aos interruptores, ligo somente um dos dois que ainda não descobri e verifco a Sala2,
+se estiver ligado o iterruptor ligado petence a essa sala caso contrario pertence a outra sala, descobrindo o interruptor da Sala2 o da Sala3 ficaria com o que sobrou.
