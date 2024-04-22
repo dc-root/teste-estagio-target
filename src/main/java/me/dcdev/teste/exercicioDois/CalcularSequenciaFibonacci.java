@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CalcularSequenciaFibonacci {
     private static boolean containsInFibonacci(int number) {
-        int before = 2, after = 3, backup = 0;
+        int before = 0, after = 1, backup = 0;
 
         if (number < 0) return false;
         while (before <= number) {
